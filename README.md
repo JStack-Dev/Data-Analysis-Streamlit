@@ -1,2 +1,94 @@
-# Data-Analysis-Streamlit
-Este proyecto es una aplicación web interactiva desarrollada como parte del módulo de Streamlit.
+# 📊 Titanic Data Analysis App with Streamlit
+
+Este proyecto es una aplicación web interactiva desarrollada como parte del módulo de **Streamlit**.  
+Permite explorar, visualizar y predecir datos del histórico **dataset del Titanic**, utilizando herramientas de análisis de datos e inteligencia artificial.
+
+---
+
+## 🚀 ¿Qué puedes hacer con esta app?
+
+🔍 Explorar los datos con filtros dinámicos:  
+- Edad, clase, tarifa, sexo, embarque, etc.
+
+📊 Generar gráficos personalizados con Plotly:  
+- Barras, pasteles, treemaps, heatmaps y más
+
+📈 Consultar estadísticas descriptivas  
+🧠 Predecir si un pasajero habría sobrevivido usando un modelo de Machine Learning (Random Forest)
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- [Python](https://www.python.org/)  
+- [Streamlit](https://streamlit.io/) – para construir la app web  
+- [Pandas](https://pandas.pydata.org/) – para manipulación de datos  
+- [Plotly](https://plotly.com/python/) y [Seaborn](https://seaborn.pydata.org/) – para visualización  
+- [Scikit-learn](https://scikit-learn.org/) – para el modelo predictivo  
+- Dataset cargado desde AWS S3
+
+---
+
+## 📦 Requisitos
+
+- Python 3.8+
+- pip
+- Recomendado: entorno virtual (venv)
+
+---
+
+## 🔧 Instalación y ejecución
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+Crea y activa un entorno virtual:
+
+bash
+Copiar
+Editar
+# Windows
+python -m venv env
+env\Scripts\activate
+
+# macOS / Linux
+python3 -m venv env
+source env/bin/activate
+Instala las dependencias:
+
+bash
+Copiar
+Editar
+pip install -r requirements.txt
+Ejecuta la app:
+
+bash
+Copiar
+Editar
+streamlit run CB_Streamlit_03_Titanic_1.py
+🗂 Estructura del proyecto
+bash
+Copiar
+Editar
+├── CB_Streamlit_03_Titanic_1.py            # Script principal de la app
+├── titanic_ai_model.py                     # Módulo con el modelo de IA
+├── html_titanic_table_description.html     # HTML con descripción del dataset
+├── requirements.txt                        # Dependencias del proyecto
+📁 Dataset utilizado
+La app carga automáticamente el dataset desde esta URL:
+
+bash
+Copiar
+Editar
+https://conquerblocks-streamlit.s3.eu-west-2.amazonaws.com/titanic-train.csv
+✨ Capturas de pantalla
+<!-- Aquí puedes insertar screenshots reales de tu app en acción -->
+📚 Autor
+Desarrollado por Jorge Juan Moscoso Chacón como parte del módulo de aprendizaje de Streamlit en el Máster de Programación Full Stack.
+
+“Ver cómo de una tabla plana puedes sacar tanto valor me ha parecido brutal. Y lo visual y entendible que puede hacerse de una aburrida lista de datos es lo que más me ha sorprendido.”
+
+🧠 ¿Y ahora qué?
+Seguiré explorando más sobre análisis de datos, dashboards y machine learning. ¡Esto solo ha sido el comienzo!
