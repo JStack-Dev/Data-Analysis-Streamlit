@@ -88,5 +88,3 @@ Desarrollado por Jorge Juan Moscoso Chacón como parte del módulo de aprendizaj
 
 “Ver cómo de una tabla plana puedes sacar tanto valor me ha parecido brutal. Y lo visual y entendible que puede hacerse de una aburrida lista de datos es lo que más me ha sorprendido.”
 
-🧠 ¿Y ahora qué?
-Seguiré explorando más sobre análisis de datos, dashboards y machine learning. ¡Esto solo ha sido el comienzo!
