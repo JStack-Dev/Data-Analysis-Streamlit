@@ -76,8 +76,6 @@ streamlit run Streamlit_Titanic.py
 📁 Dataset utilizado
 La app carga automáticamente el dataset desde esta URL:
 
-bash
-
 https://conquerblocks-streamlit.s3.eu-west-2.amazonaws.com/titanic-train.csv
 
 ![Stre](https://github.com/user-attachments/assets/11deee6c-77a2-4a15-be20-e2ad7d95d5d7)
