@@ -47,8 +47,7 @@ cd tu-repositorio
 Crea y activa un entorno virtual:
 
 bash
-Copiar
-Editar
+
 # Windows
 python -m venv env
 env\Scripts\activate
@@ -65,8 +64,7 @@ pip install -r requirements.txt
 Ejecuta la app:
 
 bash
-Copiar
-Editar
+
 streamlit run CB_Streamlit_03_Titanic_1.py
 🗂 Estructura del proyecto
 bash
@@ -76,17 +74,19 @@ Editar
 ├── titanic_ai_model.py                     # Módulo con el modelo de IA
 ├── html_titanic_table_description.html     # HTML con descripción del dataset
 ├── requirements.txt                        # Dependencias del proyecto
+
 📁 Dataset utilizado
 La app carga automáticamente el dataset desde esta URL:
 
 bash
-Copiar
-Editar
+
 https://conquerblocks-streamlit.s3.eu-west-2.amazonaws.com/titanic-train.csv
-✨ Capturas de pantalla
-<!-- Aquí puedes insertar screenshots reales de tu app en acción -->
+
+![Stre](https://github.com/user-attachments/assets/11deee6c-77a2-4a15-be20-e2ad7d95d5d7)
+![Stre](https://github.com/user-attachments/assets/c2738a98-4ee6-4651-81f5-078d4cad8948)
+
 📚 Autor
-Desarrollado por Jorge Juan Moscoso Chacón como parte del módulo de aprendizaje de Streamlit en el Máster de Programación Full Stack.
+Desarrollado por Jorge Juan Moscoso Chacón como parte del módulo de aprendizaje de Streamlit en el Máster de Programación Full Stack de Conquer Block.
 
 “Ver cómo de una tabla plana puedes sacar tanto valor me ha parecido brutal. Y lo visual y entendible que puede hacerse de una aburrida lista de datos es lo que más me ha sorprendido.”
 
