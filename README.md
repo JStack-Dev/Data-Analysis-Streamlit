@@ -55,22 +55,20 @@ env\Scripts\activate
 # macOS / Linux
 python3 -m venv env
 source env/bin/activate
+
 Instala las dependencias:
 
 bash
-Copiar
-Editar
 pip install -r requirements.txt
+
 Ejecuta la app:
 
 bash
+streamlit run Streamlit_Titanic.py
 
-streamlit run CB_Streamlit_03_Titanic_1.py
 🗂 Estructura del proyecto
-bash
-Copiar
-Editar
-├── CB_Streamlit_03_Titanic_1.py            # Script principal de la app
+
+├── Streamlit_Titanic.py                    # Script principal de la app
 ├── titanic_ai_model.py                     # Módulo con el modelo de IA
 ├── html_titanic_table_description.html     # HTML con descripción del dataset
 ├── requirements.txt                        # Dependencias del proyecto
